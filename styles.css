@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #1f2937;
+    background-color: #122932;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,7 +45,7 @@ ul {
 
 .hero-container {
     display: flex;
-    background-color: #1f2937;
+    background-color: #122932;
     justify-content: center;
 }
 
@@ -53,7 +53,6 @@ ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #1f2937;
     color: #E5E7EB;
     margin-top: 24px;
     padding: 64px;
@@ -75,7 +74,7 @@ ul {
 }
 
 .btn-signup {
-    background-color: #3882f6;
+    background-color: #95818D;
     border: none;
     border-radius: 10px;
     padding: 8px 32px;
@@ -148,7 +147,7 @@ ul {
 }
 
 .cta-box {
-    background-color: #3882f6;
+    background-color: #2C514C;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -186,7 +185,7 @@ ul {
 
 .footer-container {
     margin-top: auto;
-    background-color: #1f2937;
+    background-color: #122932;
     color: #E5E7EB;
     display: flex;
     justify-content: center;
