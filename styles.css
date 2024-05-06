@@ -19,6 +19,7 @@ ul {
     gap: 24px;
 }
 
+
 .navbar-container {
     display: flex;
     justify-content: space-around;
@@ -41,12 +42,19 @@ ul {
 
 .hero-container {
     display: flex;
+    background-color: #1f2937;
     justify-content: center;
+}
+
+.hero-box {
+    display: flex;
+    justify-content: space-around;
     align-items: center;
     background-color: #1f2937;
     color: #E5E7EB;
     margin-top: 24px;
     padding: 64px;
+    width: 50%;
 }
 
 .left-content {
@@ -55,6 +63,12 @@ ul {
 
 .left-content h1 {
     font-size: 48px;
+}
+
+.right-content img {
+    width: 30vh;
+    height: auto;
+    border-radius: 10px;
 }
 
 .btn-signup {
@@ -78,7 +92,7 @@ ul {
 .cards {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: baseline;
     gap: 16px;
     width: 50%;
     margin-top: 24px;
@@ -143,7 +157,18 @@ ul {
 
 .cta-left {
     color: #E5E7EB;
+    flex: 2;
+    width: 70%;
 }
+
+.cta-right {
+    flex: 1;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+
 
 .btn-cta {
     outline: 2px solid #E5E7EB;
@@ -153,6 +178,7 @@ ul {
     padding: 8px 16px;
     border: none;
     font-weight: bold;
+    flex-shrink: 0;
 }
 
 .footer-container {
